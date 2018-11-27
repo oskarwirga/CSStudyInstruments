@@ -73,3 +73,9 @@ Injector for event:rec_pid 428:13041 failed
 ```
 
 I then searched up `fstatat64_entry_handler` on github, and found 4 entries (all by pkmoore), one of which was the function in the syscallreplay repo.
+
+### Week 3
+
+**Current Stage: Bug Hunting**
+
+I have hit a dead end with implementing `fstatat64_entry_handler`, the old version is implemented but does NOT work properly. I spoke with Preston about this, simply enabling the entry handler opened up a whole host of problems, such as missing helper functions in `utils.py`.

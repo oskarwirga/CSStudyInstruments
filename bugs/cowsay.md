@@ -1,6 +1,6 @@
 ## Meta
 * Project: Cowsay 
-* Current Stage: Bug Hunting
+* Current Stage: Bugs not found
 * Brief description: 
 ```
  _______
@@ -20,3 +20,8 @@
 
 Cowsay seems to be safe, thank goodness.
 
+### Week 3
+
+**Current Stage: Bugs not found**
+
+I'm leaving cowsay alone, doesn't seem like I can get the infinite read I was looking for.

@@ -14,4 +14,8 @@ Tried various weird filetypes to no avail.
 
 Tried reading from an infinite source, hangs while reading which may be a usage bug.
 
+### Week 3
 
+**Current Stage: Bug Hunting**
+
+When reading from /dev/urandom, yank will hang.
