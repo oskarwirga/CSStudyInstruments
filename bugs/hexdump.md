@@ -1,6 +1,6 @@
 ## Meta
 * Project: hexdump
-* Current Stage: Bug Hunting
+* Current Stage: No bugs
 * Brief description: CLI Hex Viewer
 
 ## Updates
@@ -13,3 +13,8 @@
 Tried reading from an infinite source, does not check length while reading which may be a usage bug.
 
 
+### Week 4
+
+**Current Stage: No bugs**
+
+Expected behavior to read from an infite source.

@@ -1,7 +1,7 @@
 ## Meta
 * Project: yank
-* Current Stage: Bug Hunting
-* Brief description: The fastest terminal file manager ever written. 
+* Current Stage: No bugs found
+* Brief description: yank text to clipboard from a file descriptor
 
 ## Updates
 
@@ -19,3 +19,9 @@ Tried reading from an infinite source, hangs while reading which may be a usage 
 **Current Stage: Bug Hunting**
 
 When reading from /dev/urandom, yank will hang.
+
+### Week 4
+
+**Current Stage: No bugs found**
+
+When reading from /dev/urandom, yank hangs which is not a bug, but expected usage.

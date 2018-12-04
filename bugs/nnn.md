@@ -79,3 +79,9 @@ I then searched up `fstatat64_entry_handler` on github, and found 4 entries (all
 **Current Stage: Bug Hunting**
 
 I have hit a dead end with implementing `fstatat64_entry_handler`, the old version is implemented but does NOT work properly. I spoke with Preston about this, simply enabling the entry handler opened up a whole host of problems, such as missing helper functions in `utils.py`.
+
+### Week 4
+
+**Current Stage: Bug Hunting**
+
+Another roadblock with `fstatat64_entry_handler`, even with the latest auto traceline snip features, nnn testing is failing.
